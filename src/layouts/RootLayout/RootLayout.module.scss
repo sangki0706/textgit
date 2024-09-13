@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+
+.rootLayout {
+    @apply min-h-screen; /* Tailwind CSS 클래스 적용 */
+    /* 추가 스타일이 필요하다면 여기에 작성 */
+}

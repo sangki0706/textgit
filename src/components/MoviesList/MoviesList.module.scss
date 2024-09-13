@@ -1,0 +1,27 @@
+.section {
+    & + & {
+        margin-top: 60px;
+    }
+
+    .sectionTitle {
+        margin: 0;
+        padding: 0 40px;
+    }
+
+    .moviesList {
+        list-style: none;
+        padding: 0 40px;
+        display: flex;
+        column-gap: 20px;
+        max-width: 100vw;
+        overflow-x: scroll;
+
+        &::-webkit-scrollbar{
+            display: none;
+        }
+
+        .moviesListItem {
+            min-width: calc((100vw - 80px - 40px) / 5);
+        }
+    }
+}

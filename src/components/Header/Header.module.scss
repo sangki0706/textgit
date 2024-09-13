@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    padding: 20px 40px;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    justify-content: space-between;
+
+    .logoLink {
+        color: red;
+        text-decoration: none;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .link {
+        text-decoration: none;
+        color: white;
+    }
+}
